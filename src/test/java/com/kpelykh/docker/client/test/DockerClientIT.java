@@ -33,9 +33,9 @@ import static org.testinfected.hamcrest.jpa.HasFieldWithValue.hasField;
  * Unit test for DockerClient.
  * @author Konstantin Pelykh (kpelykh@gmail.com)
  */
-public class DockerClientTest extends Assert
+public class DockerClientIT extends Assert
 {
-    public static final Logger LOG = LoggerFactory.getLogger(DockerClientTest.class);
+    public static final Logger LOG = LoggerFactory.getLogger(DockerClientIT.class);
 
     private DockerClient dockerClient;
 
